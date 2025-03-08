@@ -27,12 +27,11 @@ public class Interest2 {
         System.out.print("Enter the annual interest rate (as a decimal): ");
         rate = TextIO.getlnDouble();
 
-        interest = principal * rate;       // Compute this year's interest.
-        principal = principal + interest;  // Add it to principal.
+        interest = principal + rate;        // Compute this year's interest.
+        principal = principal + interest;   // Add it to principal
 
         System.out.printf("The amount of interest is $%1.2f%n", interest);
         System.out.printf("The value after one year is $%1.2f%n", principal);
-
     } // end of main()
 
 } // end of class Interest2
