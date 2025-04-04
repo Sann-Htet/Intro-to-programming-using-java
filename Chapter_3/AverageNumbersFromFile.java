@@ -22,7 +22,7 @@ public class AverageNumbersFromFile {
                 break;  // If that succeeds, break out of the loop.
             }
             catch ( IllegalArgumentException e) {
-                System.out.println("Can't read from teh file \"" + fileName + "\".");
+                System.out.println("Can't read from the file \"" + fileName + "\".");
                 System.out.println("Please try again.\n");
             }
         }
